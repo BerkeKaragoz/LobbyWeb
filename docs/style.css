@@ -576,7 +576,8 @@ a:hover {
 	background-color: #f8f4ff;
     /*background-image: linear-gradient(11deg, #7df9ff, #ffe302);*/
     /*background: linear-gradient(to bottom, #FFE302 0%, #2A3439 5%, #7DF9FF 150%);*/
-    background:#32174d
+    /*background:#32174d*/
+    background: radial-gradient(circle, rgba(50,23,77,1) 0%, rgba(42,52,57,1) 100%);
 
 }
 
@@ -588,8 +589,12 @@ a:hover {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
 	.page-header {
-		padding: 3rem 4rem
-	}
+        padding: 3rem 4rem
+        
+    }
+    .svg{
+        scale: 
+    }
 }
 
 @media screen and (max-width: 42em) {
