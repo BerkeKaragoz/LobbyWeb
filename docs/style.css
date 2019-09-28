@@ -600,10 +600,9 @@ a:hover {
 		padding: 2rem 1rem
     }
     .svg{
-        scale: 40%
+        width:22rem
     }
 }
-
 .project-name {
 	margin-top: 0;
 	margin-bottom: 0.1rem
@@ -626,7 +625,7 @@ a:hover {
 		font-size: 1.75rem
     }
     .svg{
-        scale: 40%
+        width:22rem
     }
 }
 
