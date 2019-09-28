@@ -1,2 +1,6 @@
 
 @import "{{ site.theme }}";
+
+body {
+    background-color:#2a3439;
+  }
