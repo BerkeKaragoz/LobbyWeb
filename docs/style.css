@@ -592,15 +592,16 @@ a:hover {
         padding: 3rem 4rem
         
     }
-    .svg{
-        scale: 
-    }
+    
 }
 
 @media screen and (max-width: 42em) {
 	.page-header {
 		padding: 2rem 1rem
-	}
+    }
+    .svg{
+        scale: 90%
+    }
 }
 
 .project-name {
@@ -623,7 +624,10 @@ a:hover {
 @media screen and (max-width: 42em) {
 	.project-name {
 		font-size: 1.75rem
-	}
+    }
+    .svg{
+        scale: 90%
+    }
 }
 
 .project-tagline {
