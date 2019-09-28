@@ -509,7 +509,7 @@ body {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
-	color: #fff
+	color: #f8f4ff
 }
 
 a {
@@ -571,10 +571,12 @@ a:hover {
 }
 
 .page-header {
-	color: #fff;
+	color: #f8f4ff;
 	text-align: center;
 	background-color: #f8f4ff;
-    background-image: linear-gradient(11deg, #7df9ff, #ffe302);
+    /*background-image: linear-gradient(11deg, #7df9ff, #ffe302);*/
+    background: linear-gradient(to bottom, #FFE302 0%, #2A3439 5%, #7DF9FF 150%);
+
 }
 
 @media screen and (min-width: 64em) {
@@ -686,7 +688,7 @@ a:hover {
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 	font-weight: normal;
-	color: #159957
+	color: #7df9ff
 }
 
 .main-content p {
