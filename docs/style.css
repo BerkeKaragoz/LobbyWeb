@@ -2,20 +2,36 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cuprum&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Iceberg&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baumans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Voces&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 *
 {
-	font-family: 'Cuprum', sans-serif;
+font-family: 'Cuprum', sans-serif;
 }
+
+
 
 h1
 {
-	font-family: 'Righteous', cursive;
+
+font-family: 'Titillium Web', cursive;
 	color: white;
 }
 
 h2
 {
-	font-family: 'Titillium Web', sans-serif;
+
+font-family: 'Titillium Web', cursive;
 	font-weight: 600;
 	color: #7df9ff;
 
@@ -34,8 +50,8 @@ body
 	margin: auto;
 	text-align: center;
 	width: 75%;
-	color: white;
-
+	color: #f8f4ff;
+	padding-top: 300px;
 	font-size: 1.25em;
 }
 
@@ -43,16 +59,16 @@ body
 {
 	display: flex;
 	text-align: center;
-	position: relative;
-	left: -8px;
+	position: absolute;
+	left: 0px;
 	width: 100%;
 	height: 300px;
 
-	background: rgb(125,249,255);
-	background: -moz-linear-gradient(315deg, rgba(125,249,255,1) 11%, rgba(255,227,2,1) 100%);
-	background: -webkit-linear-gradient(315deg, rgba(125,249,255,1) 11%, rgba(255,227,2,1) 100%);
-	background: linear-gradient(315deg, rgba(125,249,255,1) 11%, rgba(255,227,2,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7df9ff",endColorstr="#ffe302",GradientType=1); 
+ background: rgb(125,249,255);
+background: -moz-linear-gradient(225deg, rgba(125,249,255,1) 5%, rgba(248,244,255,1) 40%, rgba(248,244,255,1) 60%, rgba(255,227,2,1) 95%);
+background: -webkit-linear-gradient(225deg, rgba(125,249,255,1) 5%, rgba(248,244,255,1) 40%, rgba(248,244,255,1) 60%, rgba(255,227,2,1) 95%);
+background: linear-gradient(225deg, rgba(125,249,255,1) 5%, rgba(248,244,255,1) 40%, rgba(248,244,255,1) 60%, rgba(255,227,2,1) 95%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7df9ff",endColorstr="#ffe302",GradientType=1); 
 }
 
 .pageHeader > div 
@@ -69,21 +85,21 @@ body
 
 .pageHeader > div > h1
 {
-	font-size: 4em;
-	text-shadow: 1px 0px 1px #AAA, 0px 1px 1px #CCC, 2px 1px 1px #AAA, 1px 2px 1px #CCC, 3px 2px 1px #AAA, 2px 3px 1px #CCC, 4px 3px 1px #AAA, 3px 4px 1px #CCC, 5px 4px 1px #AAA, 4px 5px 1px #CCC, 6px 5px 1px #AAA, 5px 6px 1px #CCC, 7px 6px 1px #AAA, 2px 2px 4px rgba(255,227,2,0);
-	color: #F8F4FF;
-	letter-spacing: 3px;
+	font-size: 5em;
+    text-shadow: rgb(120, 120, 120) 2px 2px 2px;
+	color: #2a3439;
+	letter-spacing: 0px;
 }
 
 #headerLogo {
   max-height: 60px;
-  padding: 12px 10px 8px 30px;
+  padding: 15px 10px 0px 30px;
 }
 
 header{
-	  position: absolute;
-	  left: 0px;
-	  top: 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
 	z-index: 10;
 }
 
@@ -98,19 +114,22 @@ header > ul {
   top: 0;
   left: 0;
   width: 100%;
-  font-size: 1.15em;
+
 }
 
 header > ul > li {
   float: right;
+
 }
 
 header > ul > li a {
   display: flex;
   color: black;
   text-align: center;
-  padding: 35px 40px;
+  padding: 35px 20px;
   text-decoration: none;
+  	font-family: 'Titillium Web', cursive;
+
 }
 
 header > ul > li a:hover:not(.active) {
