@@ -13,10 +13,11 @@
 @import url('https://fonts.googleapis.com/css?family=Voces&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quantico&display=swap');
 
 *
 {
-font-family: 'Cuprum', sans-serif;
+font-family: 'Times New Roman', sans-serif;
 }
 
 
@@ -24,16 +25,16 @@ font-family: 'Cuprum', sans-serif;
 h1
 {
 
-font-family: 'Titillium Web', cursive;
+font-family: 'Quantico', sans-serif;
 	color: white;
 }
 
 h2
 {
 
-font-family: 'Titillium Web', cursive;
+font-family: 'Quantico', sans-serif;
 	font-weight: 600;
-	color: #7df9ff;
+	color: white;
 
 	font-size: 2.25em;
 }
