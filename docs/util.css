@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Quantico:400,700&display=swap');
+
+*, *:before, *:after {
+	margin: 0px; 
+	padding: 0px; 
+	color: #f8f4ff;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin: 30px auto;
+}
+
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	height: 100%;
+	background-color: #2a3439;
+	box-sizing: border-box;
+}
+
+a:focus {outline: none;}
+a:hover {text-decoration: none;}
+
+h3,h4,h5,h6,p {margin: 0px;}
+h1,h2 {margin: 0px; font-family: 'Quantico', sans-serif;}
+
+input, textarea, label {
+	display: block;
+	outline: none;
+	border: none;
+}
+
+button {
+	outline: none;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+        background-color: #3a5dff;
+        border-radius: 25px;
+        padding: 10px 25px;
+        color: #f8f4ff;
+}
+button:focus {outline: none;}
+
+button:hover:before {
+  opacity: 1;
+}
+
+button:hover {
+  background-color: #333;
+  color: rgba(255,255,255,1);
+}
+
+#mainLogo{
+	background-image: url("./Lobby_Light_Vector_Deployment.svg");
+	height: 500px;
+	width: 750px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+}
